@@ -15,8 +15,6 @@ This project implements a near-real-time Data Warehouse (DW) prototype for METRO
 ├── customers_data.csv              # Customers master data
 ├── products_data.csv               # Products, stores, and suppliers master data
 ├── transactions.csv                # Transactional stream data (~30,000 records)
-├── lib/
-│   └── mysql-connector-j-9.0.0.jar # MySQL JDBC Driver
 └── README.md                       # Project documentation and execution guide
 ```
 
