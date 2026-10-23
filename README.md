@@ -1,4 +1,6 @@
-# Near-Real-Time Data Warehouse Prototype for METRO Pakistan
+# Near-Real-Time Data Warehouse
+
+**Date:** 28 November 2024
 
 This project implements a near-real-time Data Warehouse (DW) prototype for METRO Cash & Carry. It uses the Polyzotis (2008) MESHJOIN algorithm in Java to perform stream-relation joins between incoming transactions and master data, stores enriched sales data in a MySQL Star Schema, and executes 10 OLAP analytical queries.
 
@@ -15,6 +17,8 @@ This project implements a near-real-time Data Warehouse (DW) prototype for METRO
 ├── customers_data.csv              # Customers master data
 ├── products_data.csv               # Products, stores, and suppliers master data
 ├── transactions.csv                # Transactional stream data (~30,000 records)
+├── lib/
+│   └── mysql-connector-j-9.0.0.jar # MySQL JDBC Driver
 └── README.md                       # Project documentation and execution guide
 ```
 
